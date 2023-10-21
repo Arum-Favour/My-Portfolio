@@ -1,4 +1,4 @@
-@media only screen and (min-width: 7px) {
+@media (min-width: 851px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -11,8 +11,6 @@
     color: #ededed;
     padding: 0;
     margin: 0;
-    flex-grow: 1;
-    flex-shrink: 0;
   }
 
   /*NAVBAR ANIMATION*/
@@ -132,7 +130,7 @@
     font-size: 20px;
     margin: 15px 0 30px 0;
   }
-  .btn{
+  .btn {
     display: flex;
   }
   .herobio button {
@@ -430,8 +428,9 @@
     visibility: hidden;
   }
 }
+
 /*FOR MAJOR TABLETS*/
-@media (max-width:481px  ) and (min-width:850px){
+/* @media (max-width: 768px) and () {
   .project {
     display: flex;
     flex-direction: column;
@@ -445,13 +444,11 @@
     gap: 20px;
     border-radius: 10px;
   }
-}
+} */
 
+/*FOR SCREEN SIZES FROM AND BELOW AN IPAD OR TABLET*/
 
-
-/*FOR SCREEN SIZES BELOW AN IPAD OR TABLET*/
-
-@media (max-width: 915px) {
+@media (max-width: 850px) {
   *,
   body {
     box-sizing: border-box;
@@ -511,7 +508,7 @@
   }
 
   .logo {
-    font-size: 30px;
+    font-size: min(30px,20px); 
     font-weight: 600;
     color: #ededed;
     text-decoration: none;
@@ -594,11 +591,11 @@
     justify-content: center;
   }
   .herobio h1 {
-    font-size: 47px;
+    font-size: min(47px,40px);
     font-weight: 700;
   }
   .herobio h2 {
-    font-size: 42px;
+    font-size: min(42px,30px);
     font-weight: 700;
     color: #00abf0;
   }
@@ -607,16 +604,16 @@
     margin: 15px 0 30px 0;
     line-height: 55px;
     font-weight: lighter;
-    letter-spacing: 1px;
   }
   .herobio button {
-    width: 300px;
-    height: 80px;
+    max-width: 200px;
+    min-width: 100px;
+    min-height: 70px;
+    max-height: 80px;
     border-radius: 3%;
     text-align: center;
-    font-size: 25px;
+    font-size: min(25px,20px);
     font-weight: bold;
-    letter-spacing: 1px;
     border: none;
     transition: 0.5s;
     background-color: rgb(11, 137, 240);
@@ -625,6 +622,7 @@
     display: flex;
     width: 100%;
     margin: 0;
+    gap: 20px;
   }
 
   .socials {
@@ -654,7 +652,7 @@
     /* background-color: aquamarine;*/
   }
   .technologies h2 {
-    font-size: 50px;
+    font-size: min(50px,30px);
     font-weight: 700;
     color: #00abf0;
     margin-bottom: 10px;
@@ -725,8 +723,9 @@
     height: 100%;
   }
   .bio button {
-    width: 200px;
-    height: 100px;
+    max-width: 200px;
+    min-width: 150px;
+    height: 75px;
     margin-top: 20px;
     border-radius: 3%;
     text-align: center;
@@ -751,7 +750,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: min(90%,80%);
     height: fit-content;
     margin-bottom: 30px;
     gap: 20px;
@@ -772,7 +771,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 25px;
+    /* font-size: 25px; */
     font-weight: lighter;
   }
   .portfolio h2 {
@@ -783,9 +782,10 @@
     margin-bottom: 5px;
   }
   .project button {
-    font-size: 30px;
-    width: 200px;
-    height: 80px;
+    font-size: 25px;
+    max-width: 200px;
+    min-width: 150px;
+    height: 70px;
     margin-top: 20px;
     border-radius: 3%;
     text-align: center;
@@ -808,8 +808,9 @@
     font-weight: lighter;
   }
   .contactsection button {
-    width: 200px;
-    height: 80px;
+    max-width: 250px;
+    min-width: 100px;
+    height: 70px;
     border-radius: 3%;
     font-size: 25px;
     font-weight: lighter;
@@ -825,7 +826,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
   }
   button {
     background-color: rgb(11, 137, 240);

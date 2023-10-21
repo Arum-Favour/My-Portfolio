@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function HeroSection() {
   return (
     <section className="herosection" id="herosect">
@@ -35,7 +36,7 @@ function HeroSection() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./bxl-github.svg" alt="githubimage" className="github" />
+            <img src="../Images/bxl-github.svg" alt="githubimage" className="github" />
           </a>
           <a
             href="https://www.linkedin.com/in/favour-arum-861639288/"
@@ -45,7 +46,7 @@ function HeroSection() {
             <img src="./bxl-linkedin.svg" alt="linkedin" className="linkedin" />
           </a>
           <a href="https://twitter.com/kvngfx" target="_blank" rel="noreferrer">
-            <img src="./bxl-twitter.svg" alt="twitter" className="twitter" />
+            <img src="../bxl-twitter.svg" alt="twitter" className="twitter" />
           </a>
         </div>
       </div>
