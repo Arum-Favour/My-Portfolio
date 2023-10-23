@@ -39,15 +39,11 @@ function HeroSection() {
             target="_blank"
             rel="noreferrer"
           >
-<<<<<<< HEAD
-            <img src="../Images/bxl-github.svg" alt="githubimage" className="github" />
-=======
             <img
               src= {github}
               alt="githubimage"
               className="github"
             />
->>>>>>> second-main
           </a>
           <a
             href="https://www.linkedin.com/in/favour-arum-861639288/"
@@ -57,11 +53,7 @@ function HeroSection() {
             <img src={linkedin} alt="linkedin" className="linkedin" />
           </a>
           <a href="https://twitter.com/kvngfx" target="_blank" rel="noreferrer">
-<<<<<<< HEAD
-            <img src="../bxl-twitter.svg" alt="twitter" className="twitter" />
-=======
             <img src={twitter} alt="twitter" className="twitter" />
->>>>>>> second-main
           </a>
         </div>
       </div>
