@@ -822,7 +822,8 @@
     font-weight: lighter;
   }
   .contactsection button {
-    width: 200px;
+    min-width: 100px;
+    max-width: 150px;
     height: 80px;
     border-radius: 3%;
     font-size: 25px;
