@@ -12,7 +12,7 @@ import  favicon from  "./Images/1671114250642.jpg";
 
 function App() {
   return (
-    <div>
+    <div className="container">
      <Favicon url={favicon} />
       <Navbar />
       <HeroSection />
