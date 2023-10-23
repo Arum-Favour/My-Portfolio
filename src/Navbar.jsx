@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import  hamburger from  "./Images/icons8-hamburger-menu-50.png";
 
 function Navbar() {
-  //const listItems = document.querySelector("active");
 
   const [hamburgerClicked, setHamburgerClicked] = useState("");
   const handleClick = () => {
@@ -39,7 +39,7 @@ function Navbar() {
           </li>
         </ul>
         <span className="hamburger" onClick={handleClick}>
-          <img src="./icons8-hamburger-menu-50.png" alt="dropdown" />
+          <img src={hamburger} alt="dropdown" />
         </span>
       </nav>
     </div>

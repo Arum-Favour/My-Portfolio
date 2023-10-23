@@ -1,4 +1,5 @@
 import React from "react";
+import  aboutpics from  "./Images/1671114349178.jpg";
 
 function About() {
   return (
@@ -9,7 +10,7 @@ function About() {
       </div>
       <div className="img-bio">
         <div className="bioimg">
-          <img src="./1671114349178.jpg" alt="imageKingson" />
+          <img src={aboutpics} alt="imageKingson" />
         </div>
         <div className="bio">
           <p>

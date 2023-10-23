@@ -1,4 +1,6 @@
 import React from "react";
+import  email from  "./Images/icons8-email-20.png";
+import  telegram from  "./Images/icons8-telegram-20.png";
 
 function Contactme() {
   return (
@@ -18,7 +20,7 @@ function Contactme() {
         <a href="mailto: nwajiudo@gmail.com" target="_blank" rel="noreferrer">
           <button>
             <img
-              src="./icons8-email-20.png"
+              src={email}
               alt="email"
               className="emailicon"
             />
@@ -28,7 +30,7 @@ function Contactme() {
         <a href="https://t.me/heiskingsxn" target="_blank" rel="noreferrer">
           <button>
             <img
-              src="./icons8-telegram-20.png"
+              src={telegram}
               alt="telegram"
               className="messageicon"
             />
