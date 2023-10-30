@@ -2,7 +2,7 @@ import React from "react";
 import  github from  "./Images/bxl-github.svg";
 import  twitter from  "./Images/bxl-twitter.svg";
 import  linkedin from  "./Images/bxl-linkedin.svg";
-import  profilepics from  "./Images/1671114250642.jpg";
+import  profilepics from  "./Images/profilePics.jpg";
 
 
 function HeroSection() {
