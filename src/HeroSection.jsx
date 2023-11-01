@@ -4,7 +4,6 @@ import  twitter from  "./Images/bxl-twitter.svg";
 import  linkedin from  "./Images/bxl-linkedin.svg";
 import  profilepics from  "./Images/profilePics.jpg";
 
-
 function HeroSection() {
   return (
     <section className="herosection" id="herosect">
@@ -28,8 +27,8 @@ function HeroSection() {
             </a>
           </button>
           <button>
-            <a href="https://t.me/heiskingsxn" target="_blank" rel="noreferrer">
-              Let's Talk{" "}
+            <a href="https://drive.google.com/file/d/1CXa6WYM7YlgA6Sce3ZaNJ-Qn33ICQUy_/view?usp=drive_link" target="_blank" rel="noreferrer">
+               My CV{" "}
             </a>
           </button>
         </div>
