@@ -23,7 +23,7 @@ function About() {
             collaborative spirit within the tech community.<br /> <strong>Let's transform your
             digital dreams into reality, one pixel at a time!</strong>
           </p>
-          <a href="https://twitter.com/kvngfx" target="_blank" rel="noreferrer"><button>Contact Me</button></a>
+          <a href="https://wa.link/w0fw4i" target="_blank" rel="noreferrer"><button>Contact Me</button></a>
         </div>
       </div>
     </section>

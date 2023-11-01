@@ -109,7 +109,6 @@
     width: 100%;
     height: 100%;
     border-radius: 20%;
-    opacity: 0.7;
   }
   .herobio {
     width: 55%;
@@ -274,7 +273,6 @@
     width: 100%;
     height: 100%;
     border-radius: 15%;
-    opacity: 0.7;
   }
   .bio {
     font-weight: lighter;
@@ -601,13 +599,13 @@
   .herobio p {
     font-size: 25px;
     margin: 15px 0 30px 0;
-    line-height: 55px;
+    line-height: 45px;
     font-weight: lighter;
   }
   .herobio button {
     max-width: 200px;
     min-width: 100px;
-    min-height: 60px;
+    min-height: 50px;
     max-height: 80px;
     border-radius: 3%;
     text-align: center;
@@ -620,6 +618,7 @@
 
   .herobio button a{
      text-decoration: none;
+     color: black;
   }
 
   .btn {
@@ -639,8 +638,8 @@
     gap: 10px;
   }
   .socials img {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
   }
   .skills {
     position: relative;
@@ -721,14 +720,13 @@
     gap: 40px;
   }
   .bioimg {
-    width: 55%;
-    height: 350px;
+    width: 50%;
+    height: 100%;
     margin-bottom: 20px;
   }
   .bioimg img {
     width: 100%;
-    min-height: 80%;
-    max-height: 90%;
+    height: 100%;
     border-radius: 20%;
     opacity: 0.7;
   }
@@ -742,11 +740,11 @@
   .bio button {
     max-width: 200px;
     min-width: 150px;
-    height: 75px;
+    height: 60px;
     margin-top: 20px;
     border-radius: 5%;
     text-align: center;
-    font-size: 25px;
+    font-size: 21px;
     letter-spacing: 1px;
     border: none;
     transition: 0.5s ease-in-out;
@@ -801,7 +799,7 @@
     font-size: 25px;
     max-width: 200px;
     min-width: 150px;
-    height: 70px;
+    height: 60px;
     margin-top: 20px;
     border-radius: 3%;
     text-align: center;
