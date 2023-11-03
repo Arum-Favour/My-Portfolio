@@ -446,14 +446,14 @@
 
 /*FOR SCREEN SIZES FROM AND BELOW AN IPAD OR TABLET*/
 
-@media  (max-width: 850px) {
+@media (max-width: 850px) {
   *,
   body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-  body{
+  body {
     width: 100%;
   }
   #root {
@@ -463,7 +463,6 @@
     color: #ededed;
     font-family: "Poppins", sans-serif;
   }
-
 
   /*NAVBAR ANIMATION*/
 
@@ -511,7 +510,7 @@
   }
 
   .logo {
-    font-size: min(30px,20px); 
+    font-size: min(30px, 20px);
     font-weight: 600;
     color: #ededed;
     text-decoration: none;
@@ -593,11 +592,11 @@
     justify-content: center;
   }
   .herobio h1 {
-    font-size: min(47px,40px);
+    font-size: min(47px, 40px);
     font-weight: 700;
   }
   .herobio h2 {
-    font-size: min(42px,30px);
+    font-size: min(42px, 30px);
     font-weight: 700;
     color: #00abf0;
   }
@@ -614,15 +613,15 @@
     max-height: 80px;
     border-radius: 3%;
     text-align: center;
-    font-size: min(25px,20px);
+    font-size: min(25px, 20px);
     font-weight: bold;
     border: none;
     background-color: rgb(11, 137, 240);
   }
 
-  .herobio button a{
-     text-decoration: none;
-     color: black;
+  .herobio button a {
+    text-decoration: none;
+    color: black;
   }
 
   .btn {
@@ -679,8 +678,14 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .htmlicon,.cssicon,.githubicon,.jqueryicon,.jsicon,.bootstrapicon,.reacticon{
+
+  .htmlicon,
+  .cssicon,
+  .githubicon,
+  .jqueryicon,
+  .jsicon,
+  .bootstrapicon,
+  .reacticon {
     min-width: 20px;
     max-width: 30px;
     min-height: 20px;
@@ -701,7 +706,6 @@
   }
   .about h2 {
     font-size: 40px;
-
   }
   .introhead {
     margin: 50px;
@@ -740,7 +744,7 @@
     width: 100%;
     height: 100%;
   }
-  .bio p{
+  .bio p {
     line-height: 40px;
   }
   .bio button {
@@ -843,7 +847,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .contactbtn {
     display: flex;
     justify-content: center;
@@ -857,10 +861,11 @@
     font-size: 32px;
     letter-spacing: 2px;
   }
-  .emailicon,.messageicon{
+  .emailicon,
+  .messageicon {
     display: none;
   }
-   
+
   footer {
     width: 100%;
     margin: auto;
@@ -904,8 +909,8 @@
     text-decoration: none;
     color: black;
   }
-  
-  a:visited{
+
+  a:visited {
     color: black;
   }
 }
