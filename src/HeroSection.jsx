@@ -27,7 +27,7 @@ function HeroSection() {
             </a>
           </button>
           <button>
-            <a href="https://drive.google.com/file/d/1CXa6WYM7YlgA6Sce3ZaNJ-Qn33ICQUy_/view?usp=drive_link" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1CXa6WYM7YlgA6Sce3ZaNJ-Qn33ICQUy_/view?usp=sharing" target="_blank" rel="noreferrer">
                My CV{" "}
             </a>
           </button>
