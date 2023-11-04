@@ -8,7 +8,7 @@ import Contactme from "./Contactme";
 import Footer from "./Footer";
 import "./index.css";
 import Favicon from "react-favicon";
-import  favicon from  "./Images/1671114250642.jpg";
+import  favicon from  "./Images/profilePics.jpg";
 
 function App() {
   return (
