@@ -58,7 +58,7 @@ function HeroSection() {
       </div>
 
       <div className="homeimg">
-        <img src={profilepics} alt="ProfilePicture" />
+        <img src={profilepics} alt="Arum-Favour-Image" />
       </div>
     </section>
   );
