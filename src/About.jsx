@@ -10,7 +10,7 @@ function About() {
       </div>
       <div className="img-bio">
         <div className="bioimg">
-          <img src={aboutpics} alt="imageKingson" />
+          <img src={aboutpics} alt="Arum-Favour-Image" />
         </div>
         <div className="bio">
           <p>
