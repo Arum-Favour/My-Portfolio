@@ -8,21 +8,21 @@ const ProjectDetails = [
     name: "Move With Kings",
     description:
       "A beautiful,responsive and detailed landing page made with bootstrap for a moving company.Responsive on all devices.",
-      projectUrl:"https://kingsxn.github.io/Movewithking/",
+      projectUrl:"https://arum-favour.github.io/Movewithking/",
   },
   {
     image: Huddle,
     name: "Huddle community page",
     description:
       "Responsive and eye catching modern website made with adaptable UI components for the Huddle Community.Responsive on all devices.",
-      projectUrl:"https://kingsxn.github.io/Huddle-Landing-Page/",
+      projectUrl:"https://arum-favour.github.io/Huddle-Landing-Page/",
   },
   {
     image: devprofile,
     name: "Developer Portfolio",
     description:
       "A Single page modern developer portfolio website made with HTML,CSS AND JAVASCRIPT.Responsive on all devices.",
-      projectUrl:"https://kingsxn.github.io/Developer-Portfolio/",
+      projectUrl:"https://arum-favour.github.io/Developer-Portfolio/",
   }
 ];
 
