@@ -1,7 +1,7 @@
 import movewithkings from "./Images/movewithkings.png";
 import Huddle from "./Images/Huddle Screenshot.png";
 import devprofile from "./Images/Screenshot 2023-08-07 122622.png";
-import IpTracker from "src/Images/Iptracker.png"
+import IpTracker from "./Images/Iptracker.png"
 
 const ProjectDetails = [
   {
